@@ -1,0 +1,11 @@
+create table Login
+(userName varchar(255) ,
+psw varchar(255), 
+Primary key (userName));
+
+
+insert into Login(userName,psw) values('admin','admin');
+
+select * from login;
+
+select * from employee;
